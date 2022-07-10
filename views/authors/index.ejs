@@ -1,7 +1,10 @@
 <h2>Search Authors</h2>
 <form action="/authors" method="GET">
-    <label>Name</label>
-    <input type="text" name="name" value="<%= searchOptions.name %>" />
+    <div>
+        <label>Name</label>
+        <input type="text" name="name" value="<%= searchOptions.title %>" />
+    </div>
+
     <button type="Submit">Search</button>
 </form>
 <br />
