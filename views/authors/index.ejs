@@ -12,4 +12,4 @@
 <div><%= author.name %></div>
 <a href="/authors/<%= author.id %>">View</a>
 <a href="/authors/<%= author.id %>/edit">Edit</a>
-<%- include('../partials/deleteForm',{url:author.id}) %> <% }) %>
+<%- include('../partials/deleteForm',{url:author.id,dest:"authors"}) %> <% }) %>
