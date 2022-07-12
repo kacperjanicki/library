@@ -1,1 +1,3 @@
 views/books/show.ejs
+views/partials/bookGrid.ejs
+views/partials/errorMessage.ejs
